@@ -88,12 +88,13 @@ const isAdminOrOwner = async (req, res, next) =>{
     })
   }
 }
+
 const authJwt = {
   verifyToken : verifyToken,
   isAdmin : isAdmin,
   isValidUserIdReqParam: isValidUserIdReqParam,
   isAdminOrOwner : isAdminOrOwner
 
-}
+};
 
-module.exports = authJwt;
+module.exports = authJwt

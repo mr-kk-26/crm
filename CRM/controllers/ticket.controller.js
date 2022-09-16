@@ -18,7 +18,7 @@ const sendNotification = require("../utils/notificationClient");
  *
  * 3. After the ticket is created, ensure the customer and Engineer documents are
  * also updated
- * 
+ *
  *  4. send the email after the ticket is created to all the stake holders
  */
 

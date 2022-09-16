@@ -96,6 +96,7 @@ const validateSignInRequestBody = (req, res, next)=>{
 
    if(!req.body.password){
      return res.status(400).send({
+       message: "Failed ! password is not provided"
       })
    }
 
